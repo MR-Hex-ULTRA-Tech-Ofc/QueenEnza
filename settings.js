@@ -1,47 +1,68 @@
+/*
+   ___                          _____
+  / _ \ _   _  ___  ___ _ __   | ____|_ __  ______ _
+ | | | | | | |/ _ \/ _ \ '_ \  |  _| | '_ \|_  / _` |
+ | |_| | |_| |  __/  __/ | | | | |___| | | |/ / (_| |
+  \__\_\\__,_|\___|\___|_| |_| |_____|_| |_/___\__,_|
+  
+*/
 
-const fs = require('fs')
-const chalk = require('chalk')
+const _0x48c9b4=_0x5ad2;function _0x39dd(){const _0x3f2854=['1790oQxhQE','8093967sTXnwX','chalk','2908KCcjBm','10574272PturFH','13349493fTzmbW','2724FozAQl','942342KuLouN','1180626HWaUto','9546LqBUuF'];_0x39dd=function(){return _0x3f2854;};return _0x39dd();}function _0x5ad2(_0x2df5e4,_0x476811){const _0x39dd9f=_0x39dd();return _0x5ad2=function(_0x5ad25f,_0x538826){_0x5ad25f=_0x5ad25f-0x128;let _0x5c7114=_0x39dd9f[_0x5ad25f];return _0x5c7114;},_0x5ad2(_0x2df5e4,_0x476811);}(function(_0x259b47,_0x5da10f){const _0x42a831=_0x5ad2,_0x433038=_0x259b47();while(!![]){try{const _0x3a321d=parseInt(_0x42a831(0x12b))/0x1+parseInt(_0x42a831(0x12a))/0x2+-parseInt(_0x42a831(0x129))/0x3*(-parseInt(_0x42a831(0x130))/0x4)+parseInt(_0x42a831(0x12d))/0x5*(-parseInt(_0x42a831(0x12c))/0x6)+-parseInt(_0x42a831(0x12e))/0x7+-parseInt(_0x42a831(0x131))/0x8+parseInt(_0x42a831(0x128))/0x9;if(_0x3a321d===_0x5da10f)break;else _0x433038['push'](_0x433038['shift']());}catch(_0x2bb006){_0x433038['push'](_0x433038['shift']());}}}(_0x39dd,0xb681b));const fs=require('fs'),chalk=require(_0x48c9b4(0x12f));
 
-//aumto functioner
-global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoRecord = false //auto recording (true to on, false to off)
 
-//documents variants
-global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
-global.doc2 = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-global.doc3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-global.doc4 = 'application/zip'
-global.doc5 = 'application/pdf'
-global.doc6 = 'application/vnd.android.package-archive'
+//ᴏᴡɴᴇʀ sᴇᴛᴛɪɴɢs
 
-//owmner v card
-global.owner = ['94715430842'] //ur owner number
-global.ownername = "ᴹᴿ ʜᴇx ᴜʟᴛʀᴀ ᴛᴇᴄʜ" //ur owner name
-global.ytname = "" //ur yt chanel name
-global.socialm = "GitHub: ᴹᴿ ʜᴇx ᴜʟᴛʀᴀ ᴛᴇᴄʜ" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+//Your Owner Number
+global.owner = ['94715430842']
+//Your Name
+global.ownername = "ᴹᴿ ʜᴇx ᴜʟᴛʀᴀ ᴛᴇᴄʜ"
+//Your Yt Name
+global.ytname = ""
+//Your Socialm
+global.socialm = "GitHub: ᴹᴿ ʜᴇx ᴜʟᴛʀᴀ ᴛᴇᴄʜ"
+//Your Location
+global.location = "India, Mizoram, Aizawl"
 
-//bot bomdy 
-global.ownernomer = "94715430842" //ur number
-global.premium = ['94715430842'] //ur premium number
-global.botname = 'Qᴜᴇᴇɴ ᴇɴᴢᴀ ᴍᴅ' //ur bot name
-global.linkz = "" //your theme url which will be displayed on whatsapp
-global.websitex = "" //ur website to be displayed
-global.botscript = '' //script link
-global.themeemoji = "💃" //ur theme emoji
-global.packname = "Qᴜᴇᴇɴ ᴇɴᴢᴀ ᴍᴅ" //ur sticker watermark packname
-global.author = "ᴹᴿ ʜᴇx ᴜʟᴛʀᴀ ᴛᴇᴄʜ" //ur sticker watermark author
-global.wm = "Qᴜᴇᴇɴ ᴇɴᴢᴀ ᴍᴅ" //ur watermark
+//sᴇᴛᴛɪɴɢs
 
-// Other
+//Your Number
+global.ownernomer = "94715430842"
+//You Premium Number
+global.premium = ['94715430842']
+//You Bot Name
+global.botname = 'Qᴜᴇᴇɴ ᴇɴᴢᴀ ᴍᴅ'
+//You Thame Url which will be displayed on whatsapp
+global.linkz = "" 
+//You Website Link
+global.websitex = "" 
+//BOT Script
+global.botscript = ''
+//You Thame Emoji
+global.themeemoji = "💃" 
+//You Sticker packname
+global.packname = "Qᴜᴇᴇɴ ᴇɴᴢᴀ ᴍᴅ"
+//You Sticker Athor name
+global.author = "ᴹᴿ ʜᴇx ᴜʟᴛʀᴀ ᴛᴇᴄʜ"
+//
+global.wm = "Qᴜᴇᴇɴ ᴇɴᴢᴀ ᴍᴅ"
+//
+global.INBOX_BLOCK = true
+//
+global.READ_MASSAGE = false
+//
+global.INBOX_BLOCK_MSG = 'Inbox BLOCK Activated By Enza Owner'
+
+
+// ᴏᴛʜᴇʀ
 global.sessionName = 'session'
 global.prefa = ['','!','.','#','&']
 global.sp = ''
 
-//messages
+//ᴍᴇssᴀɢᴇ
+
 global.mess = {
-    success: 'Here you go!',
-    admin: 'This feature could be used by admins only!',
+    success: 'Done ✅',
+    admin: '*Only admins can use this command !*',
     botAdmin: 'Bot Must Be Admin First!',
     premime: 'Premium Special Features If You Want to Register Type Rent',
     owner: 'This feature could be used by owner only',
@@ -52,79 +73,9 @@ global.mess = {
     linkm: 'Where is the link?',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
     nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
+
 }
 
-//media target
-global.thum = fs.readFileSync("./EnzaMedia/theme/Enzalogo.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./EnzaMedia/theme/Enzalogo.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./EnzaMedia/theme/Enzalogo.jpg") //ur error pic
-global.thumb = fs.readFileSync("./EnzaMedia/theme/Enzalogo.jpg") //ur thumb pic
 
-//menu image maker
-global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 
-//adventure1
-    global.limitawal = {
-    premium: "Infinity",
-    free: 12,
-    monayawal: 1000
-}
-   global.rpg = {
-   darahawal: 100,
-   besiawal: 15,
-   goldawal: 10,
-   emeraldawal: 5,
-   umpanawal: 5,
-   potionawal: 1
-}
-
-global.limitAwal = {
- prem: 'Unlimited',
- free: 70
-}
-
-//adventure2
-global.emot = {
-role: '🏆',
-level: '🎚️',
-limit: '📊',
-health: '❤️',
-exp: '💫',
-money: '💵',
-potion: '🥤',
-diamond: '💎',
-common: '📦',
-uncommon: '🎁',
-mythic: '🗳️',
-legendary: '🗃️',
-pet: '🎁',
-trash: '🗑',
-armor: '👕',
-sword: '⚔️',
-wood: '🪵',
-batu: '🪨',
-string: '🕸️',
-horse: '🐎',
-cat: '🐈',
-dog: '🐕',
-fox: '🦊',
-petFood: '🍖',
-iron: '⛓️',
-gold: '👑',
-emerald: '💚',
-budak: '🏃',
-busur: '🏹',
-panah: '💘',
-kapak: '🪓'
-}
-
-let file = require.resolve(__filename)
-fs.watchFile(file, () => {
-	fs.unwatchFile(file)
-	console.log(chalk.redBright(`Update'${__filename}'`))
-	delete require.cache[file]
-	require(file)
-})
+function _0x20de(_0x48dbdf,_0x1c7558){const _0x282b9d=_0x282b();return _0x20de=function(_0x20de54,_0x1686f1){_0x20de54=_0x20de54-0x176;let _0x50ff8e=_0x282b9d[_0x20de54];return _0x50ff8e;},_0x20de(_0x48dbdf,_0x1c7558);}const _0x329e37=_0x20de;(function(_0xd369cd,_0x15912d){const _0x4f44e4=_0x20de,_0x1913f8=_0xd369cd();while(!![]){try{const _0x9d0576=-parseInt(_0x4f44e4(0x17f))/0x1+parseInt(_0x4f44e4(0x184))/0x2*(parseInt(_0x4f44e4(0x17e))/0x3)+-parseInt(_0x4f44e4(0x187))/0x4*(parseInt(_0x4f44e4(0x176))/0x5)+-parseInt(_0x4f44e4(0x17b))/0x6+-parseInt(_0x4f44e4(0x185))/0x7*(parseInt(_0x4f44e4(0x183))/0x8)+parseInt(_0x4f44e4(0x182))/0x9*(parseInt(_0x4f44e4(0x186))/0xa)+parseInt(_0x4f44e4(0x188))/0xb*(parseInt(_0x4f44e4(0x177))/0xc);if(_0x9d0576===_0x15912d)break;else _0x1913f8['push'](_0x1913f8['shift']());}catch(_0x38a721){_0x1913f8['push'](_0x1913f8['shift']());}}}(_0x282b,0x56a87));let file=require[_0x329e37(0x17a)](__filename);function _0x282b(){const _0x249713=['226501XFrsJi','cache','unwatchFile','765XpARlc','17432tDzGLm','44SGROyW','119NofULs','24900oqYuzp','103868VYSYVa','17996CsubSS','115NeOxgE','7908XwAsag','watchFile','redBright','resolve','3985656anZJTi','Update\x27','log','80487IoTBOI'];_0x282b=function(){return _0x249713;};return _0x282b();}fs[_0x329e37(0x178)](file,()=>{const _0x31036c=_0x329e37;fs[_0x31036c(0x181)](file),console[_0x31036c(0x17d)](chalk[_0x31036c(0x179)](_0x31036c(0x17c)+__filename+'\x27')),delete require[_0x31036c(0x180)][file],require(file);});
